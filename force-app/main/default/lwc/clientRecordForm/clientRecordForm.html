@@ -1,0 +1,12 @@
+<template>
+    ​<div style="min-height: 700px;">
+        <lightning-record-form onsuccess={successHandler} 
+                onerror={errorHandler}
+                record-id={recordId} 
+                object-api-name={sObjectName} 
+                layout-type={layout} 
+                mode={mode} 
+                columns={columns}>
+        </lightning-record-form>
+    ​</div>
+</template>
